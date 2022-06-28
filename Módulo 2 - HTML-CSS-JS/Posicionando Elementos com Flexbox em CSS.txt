@@ -1,0 +1,95 @@
+_Apresentação
+
+Flexbox = Layout responsivo e adaptável as mais diversas telas
+
+_Introdução Flexbox
+
+Flex Container = Tag que envolve os itens, transforma todos os itens em flex item
+
+Propriedades relacionadas
+
+display = inicializador
+flex-direction = direcionamento
+flex-wrap = quebra de linha
+flex-flow = abreviação
+justify-content = alinhar itens de acordo com direção
+align-items = alinhar de acordo com eixo
+align-content = alinhar linhas
+
+Flex Item = filhos do flex container que também pode ser container
+
+
+Propriedades relacionadas
+
+flex-grow = fator de crescimento
+flex-basis = tamanho inicial
+flex-shrink = capacidade de redução
+flex = abreviação das anteriores
+order = ordem de distribuição
+algn-self = alinhamento de item específico
+
+_Fundamentos flex container
+
+Estrutura básica do display:flex = disposição em linha para menus
+
+Flex-direction = orientação horizontal
+eixos:
+row = esq p/ dir
+row-reverse = dir p/ esq
+column = cima baixo
+column-reverse = baixo cima
+
+_Justify-content
+
+flex-start = ínicio
+flex-end = final
+flex-center = centro
+space-between = espaçamento igual
+space-around = espaços centrais duas vezes maiores que os exteriores.
+
+_Align Items = Alinhamento dos itens atráves do eixo do container
+
+center = alinhamento ao centro
+strecth = padrão
+start = início
+end = final
+baseline = linha base
+
+_Align-content = orientação da linha no eixo vertical
+
+quebra de linha
+container maior que a soma das linhas
+
+center = centro
+stretch = padrão
+start = início
+end = final
+space-between = espaços iguais
+space-around = espaços centrais o dobro dos finais
+
+
+_Flex-items
+
+Grow = define a proporção de crescimento dos itens respeitando o conteúdo
+Não funciona com o justify-content
+
+Basis = tamanho inicial
+
+auto = não tem tamanho
+px, %, em, ... = valores exatos
+0 = relação com flex-grow
+
+Shrink = capacidade de redução ou compressão de um item
+
+Flex = atalho para grow, shrink e basis
+
+Order = ordenação dos itens
+
+Align-self = alinhamento individual
+
+auto = padrão
+start = início
+end = final
+center = centro
+stretch = espaço total
+baseline = linha base
