@@ -130,4 +130,33 @@ body {
     background-image: url(./Imagens/googleplay-button.png);
 }
 
+/* media queries */
 
+
+@media (max-width: 1024px) {
+    .postart-wrapper {
+        width: 90%;
+    }
+}
+
+@media (max-width: 650px) {
+    body {
+        background-color: #ffffff;
+    }
+
+    .postart-wrapper {
+        width: 90%;
+    }
+
+    .postart-celular {
+        display: none;
+    }
+
+    .postart-login {
+        width: 100%;
+    }
+    
+    .grupo {
+        border: 1px solid transparent;
+    }
+}
